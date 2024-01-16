@@ -1,4 +1,4 @@
-const add = (m1, m2) => {
+const subtract = (m1, m2) => {
   let matrix = [];
 
   for (let i = 0; i < m1.length; i++) {
@@ -15,7 +15,7 @@ const add = (m1, m2) => {
 };
 
 console.log(
-  add(
+  subtract(
     [
       [1, 2, 3],
       [4, 2, 1],
